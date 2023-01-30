@@ -19,7 +19,7 @@ public class LoginPage {
     public void inputName(String name) {
         userName.setValueInput(name);
     }
-    @Step("Ввод паоля")
+    @Step("Ввод пароля")
     public void inputPass(String pass){
         userPassword.setValueInput(pass);
     }
